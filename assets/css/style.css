@@ -126,7 +126,8 @@ li {
 
 li a {
 	display: block;
-    text-align: center;
+    	text-align: center;
+	color: #777777;
 }
 
 li:hover {
@@ -142,7 +143,8 @@ li+li {
 }
 
 a:link {
-    text-decoration: none;
+    	text-decoration: none;
+	color: #777777;
 }
 
 a:visited {
