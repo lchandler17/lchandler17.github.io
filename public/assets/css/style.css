@@ -1,0 +1,66 @@
+/* HEADER STYLING */
+header {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 45px;
+	letter-spacing: 1.5px;
+	display: block;
+	text-align: center;
+}
+
+a {
+	color: #7266E4;
+}
+
+.nav-pills .nav-link.active {
+	color: white;
+	background-color: #7266E4;
+}
+
+.navbar {
+	display: block;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+/* BODY STYLING */
+
+#main {
+	position: relative;
+}
+
+#about {
+	margin: 20px 0px;
+}
+
+.card-text img {
+	float: left;
+    margin-right: 20px;
+}
+
+/* FOOTER STYLING */
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	line-height: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: 'Abril Fatface', cursive;
+	background-color: #9c9c9c;
+	border-style: solid;
+	border-color: #7266E4;
+	border-width: 3px 0px 0px 0px;
+}
+
+#socMedia img {
+	height: 45px;
+	margin: 10px 0px;
+}
+
+#copyright {
+	display: block;
+}
