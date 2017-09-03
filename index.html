@@ -18,53 +18,139 @@
 
 </head>
 	
-<body>
+<body data-spy="scroll" data-target="#nav2" data-offset="185">
+<!-- When changing the data-offset, also change the spacer height -->
 
 	<div class="row">
 		<div class="col-md-12">
+			<div id="header">
+			
+				<header>Lauren Chandler</header>
 
-			<header>Lauren Chandler</header>
+				<nav id="nav2" class="navbar">
+					<ul class="nav nav-pills justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">Portfolio</a>
+						</li>
+					</ul>
+				</nav>
 
-			<nav id="nav" class="navbar">
-				<ul class="nav nav-pills justify-content-center">
-					<li class="nav-item">
-						<a class="nav-link active" href="#about">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#portfolio">Portfolio</a>
-					</li>
-				</ul>
-			</nav>
+				<div id="socMedia">
+					<a href="" target="_blank"><img src="public/assets/images/email.png" class="social" alt="Email" /></a>
+					<a href="https://www.linkedin.com/in/laurenalisachandler/" target="_blank"><img src="public/assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+					<a href="https://github.com/lchandler17" target="_blank"><img src="public/assets/images/github.png" class="social" alt="GitHub" /></a>
+					<a href="https://twitter.com/gensouchan" target="_blank"><img class="icon" src="public/assets/images/twitter.png" alt="twitter"></a>
+					<a href="http://stackoverflow.com/users/7863531/lauren-chandler" target="_blank"><img src="public/assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+				</div>
 
+			</div> <!-- #header -->
 		</div> <!-- col-md-12 -->
 	</div> <!-- first row -->
 
-	<div id="main" data-spy="scroll" data-target="#nav" data-offset="0">
+	<div id="main">
 		<div class="row">
 	  		<div class="col-md-1"></div>
 
 	  		<div class="col-md-10">
 				
+				<div id="spacer"></div>
+
 				<div id="about" class="card">
 					<div class="card-body">
-						<h4 class="card-title">About Me</h4>
+						<h3 class="card-title">About Me</h3>
 						<p class="card-text">
 							<img src="public/assets/images/seigaiha.png" height="200px" alt="placeholder" />
 							Native Clevelander. Typical Gryffindor. Loves being outdoors, jiu jitsu, cooking, reading, traveling, and problem-solving.  Listens to a pretty eclectic assortment of music.  Dances (badly).  Addicted to black coffee. Delighted by the wild world of coding.  
 				            <br/><br/>
 				            More seriously, I'm a full-stack programmer and process designer with four years of experience in business process analysis, ERP implementation, production planning, quality control, and technical sales.  Following three years working in Japan, I completed my MBA at Case Western Reserve with an operations concentration. I am currently seeking opportunities to help design and create robust, sustainable solutions that fully satisfy requirements and that end users will enjoy working with.
+<!-- 				            <br/>
+				            TEST
+				            <br/>
+				            TEST
+				            <br/>
+				            TEST
+				            <br/>
+				            TEST
+				            <br/>
+				            TEST
+				            <br/>
+				            TEST
+				            <br/>
+				            TEST
+				            <br/>
+				            TEST
+				            <br/>
+				            TEST
+				            <br/>
+				            TEST
+				            <br/>
+				            TEST -->
 				        </p>
 					</div> <!-- .card-body -->
 				</div> <!-- #about -->
 
 				<div id="portfolio" class="card">
 					<div class="card-body">
-						<h4 class="card-title">Portfolio</h4>
-						<p class="card-text">
-							Native Clevelander. Typical Gryffindor. Loves being outdoors, jiu jitsu, cooking, reading, traveling, and problem-solving.  Listens to a pretty eclectic assortment of music.  Dances (badly).  Addicted to black coffee. Delighted by the wild world of coding.  
-				            <br/><br/>
-				            More seriously, I'm a full-stack programmer and process designer with four years of experience in business process analysis, ERP implementation, production planning, quality control, and technical sales.  Following three years working in Japan, I completed my MBA at Case Western Reserve with an operations concentration. I am currently seeking opportunities to help design and create robust, sustainable solutions that fully satisfy requirements and that end users will enjoy working with.
-				        </p>
+						<h3 class="card-title">Portfolio</h3>
+
+							<div class="card project">
+								<div class="card-body">
+									<h4 class="card-title">Bevy</h4>
+									<p class="card-text">
+										• An app to provide the user with a map-based representation of what events are happening in their area. Offers the user the option to sort by event category and timeframe. <br />
+										• Technologies: HTML, CSS, Bootstrap, APIs, Twitter integration.
+									</p>
+									<a href="https://github.com/lchandler17/Bevy" target="_blank"><button type="button" class="btn btn-outline-primary">See more</button></a>
+								</div> <!-- .card-body -->
+							</div> <!-- .card project-->
+
+							<div class="card project">
+								<div class="card-body">
+									<h4 class="card-title">Transracial Journeys</h4>
+									<p class="card-text">
+										• Cleveland GiveCamp 2017 project: In two days, design and build easy-to-maintain website and event registration forms for non-profit org supporting racially-mixed adoptive families. <br />
+										• Technologies: Wordpress templates and plug-ins mixed with custom CSS and PHP.
+									</p>
+									<a href="http://www.transracialjourneys.org/" target="_blank"><button type="button" class="btn btn-outline-primary">See more</button></a>
+								</div> <!-- .card-body -->
+							</div> <!-- .card project-->
+
+							<div class="card project">
+								<div class="card-body">
+									<h4 class="card-title">Burgerz</h4>
+									<p class="card-text">
+										• Add a burger to the list, then devour it.<br />
+										• Technologies: HTML, CSS, Javascript, Handlebars.js, SQL.
+									</p>
+									<a href="https://github.com/lchandler17/burger" target="_blank"><button type="button" class="btn btn-outline-primary">See more</button></a>
+								</div> <!-- .card-body -->
+							</div> <!-- .card project-->
+
+							<div class="card project">
+								<div class="card-body">
+									<h4 class="card-title">Crystal Collector</h4>
+									<p class="card-text">
+										• Collect crystals to determine their value, then try to reach the goal value without exceeding it.<br />
+										• Technologies: HTML, CSS, Bootstrap, Javascript, jQuery.
+									</p>
+									<a href="https://github.com/lchandler17/crystal-collector" target="_blank"><button type="button" class="btn btn-outline-primary">See more</button></a>
+								</div> <!-- .card-body -->
+							</div> <!-- .card project-->
+							
+							<div class="card project">
+								<div class="card-body">
+									<h4 class="card-title">Trivia Game</h4>
+									<p class="card-text">
+										• Test your knowledge of Japanese trivia! <br />
+										• Technologies: HTML, CSS, Bootstrap, Javascript, jQuery.
+									</p>
+									<a href="https://github.com/lchandler17/TriviaGame" target="_blank"><button type="button" class="btn btn-outline-primary">See more</button></a>
+								</div> <!-- .card-body -->
+							</div> <!-- .card project-->
+
 					</div> <!-- .card-body -->
 				</div> <!-- #portfolio -->
 
@@ -75,13 +161,6 @@
 	</div> <!-- #main -->
 
 	<footer>
-		<span id="socMedia">
-			<a href="" target="_blank"><img src="public/assets/images/email.png" class="social" alt="Email" /></a>
-			<a href="https://www.linkedin.com/in/laurenalisachandler/" target="_blank"><img src="public/assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
-			<a href="https://github.com/lchandler17" target="_blank"><img src="public/assets/images/github.png" class="social" alt="GitHub" /></a>
-			<a href="https://twitter.com/gensouchan" target="_blank"><img class="icon" src="public/assets/images/twitter.png" alt="twitter"></a>
-			<a href="http://stackoverflow.com/users/7863531/lauren-chandler" target="_blank"><img src="public/assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
-		</span>
    		<span id="copyright">Copyright &copy; 2017 Lauren Chandler</span>
 	</footer>
 	

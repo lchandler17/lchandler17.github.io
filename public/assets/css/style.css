@@ -1,4 +1,16 @@
 /* HEADER STYLING */
+#header {
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	width: 100%;
+	background-color: #CCC2E4;
+	display: block;
+/*	border-style: solid;
+	border-color: #7266E4;
+	border-width: 0px 0px 3px 0px;*/
+}
+
 header {
 	font-family: 'Abril Fatface', cursive;
 	font-size: 45px;
@@ -23,14 +35,55 @@ a {
 	font-family: 'Abril Fatface', cursive;
 }
 
+#socMedia {
+	text-align: center;
+}
+
+#socMedia img {
+	height: 35px;
+	margin: 10px 0px;
+}
+
 /* BODY STYLING */
 
-#main {
+body {
+	background-image: url('../../assets/images/seigaiha.png');
 	position: relative;
+	overflow-y: scroll;
+	/*overflow: auto;*/
+	/*height: 100%;*/
+}
+
+#spacer {
+	height: 180px;
+	/*don't forget to change data-offset in html */
+}
+
+#main {
 }
 
 #about {
-	margin: 20px 0px;
+	border-width: 3px;
+	background-color: #CCC2E4;
+}
+
+#portfolio {
+	border-width: 3px;
+	background-color: #CCC2E4;
+}
+
+.card {
+	margin: 20px 10px;
+}
+
+h3.card-title {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 28px;
+}
+
+h4.card-title {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 22px;
 }
 
 .card-text img {
@@ -38,9 +91,29 @@ a {
     margin-right: 20px;
 }
 
+.btn-outline-primary {
+    color: #7266E4;
+    border-color: #7266E4;
+    font-family: 'Abril Fatface', cursive;
+	font-size: 18px;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: #9c9c9c;
+
+}
+
+.btn-outline-primary:hover a{
+    color: white;
+    background-color: #9c9c9c;
+    text-decoration: none;
+}
+
 /* FOOTER STYLING */
 footer {
-	position: absolute;
+	/*position: fixed;*/
+	/*position: absolute;*/
 	bottom: 0;
 	width: 100%;
 	line-height: 20px;
@@ -54,11 +127,7 @@ footer {
 	border-style: solid;
 	border-color: #7266E4;
 	border-width: 3px 0px 0px 0px;
-}
-
-#socMedia img {
-	height: 45px;
-	margin: 10px 0px;
+	display: block;
 }
 
 #copyright {
