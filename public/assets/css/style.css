@@ -4,11 +4,12 @@
 	z-index: 1;
 	top: 0px;
 	width: 100%;
-	background-color: #CCC2E4;
+	background-color: #A1BBEC;
 	display: block;
-/*	border-style: solid;
-	border-color: #7266E4;
-	border-width: 0px 0px 3px 0px;*/
+	/*border-style: solid;*/
+	/*border-color: white;*/
+	border: 1px solid rgba(0,0,0,.125);
+	/*border-width: 0px 0px 1px 0px;*/
 }
 
 header {
@@ -55,8 +56,9 @@ body {
 }
 
 #spacer {
-	height: 180px;
+	height: 130px;
 	/*don't forget to change data-offset in html */
+	/* 180 with nav bar */
 }
 
 #main {
@@ -64,12 +66,14 @@ body {
 
 #about {
 	border-width: 3px;
-	background-color: #CCC2E4;
+	background-color: #A1BBEC;
 }
 
 #portfolio {
 	border-width: 3px;
-	background-color: #CCC2E4;
+	background-color: #A1BBEC; 
+	/*#8892EA;*/
+	/*#CCC2E4;*/
 }
 
 .card {
