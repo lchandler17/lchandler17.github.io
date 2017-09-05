@@ -6,10 +6,10 @@ $(document).ready(function(){
 
 	$('#mailModal').on('shown.bs.modal', function () {
   		$('#myInput').focus();
-  		//??? my Input?? //
 	});
 
 	$("#mailSend").on("click", function() {
+		
 
 	});
 
